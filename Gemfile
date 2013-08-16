@@ -9,9 +9,9 @@ group :development, :test do
 	gem 'sqlite3'
 end
 
-group :production do
-	ruby '1.8.7' 
+group :production do 
 	gem 'pg'
+	ruby '1.8.7'
 end
 
 gem 'json'
