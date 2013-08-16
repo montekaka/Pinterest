@@ -10,6 +10,7 @@ group :development, :test do
 end
 
 group :production do
+	ruby '1.8.7' 
 	gem 'pg'
 end
 
